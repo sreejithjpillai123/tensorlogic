@@ -7,7 +7,9 @@ import os
 import uuid
 from datetime import date
 
-app = FastAPI(title="Mini Resume Collector", description="A simple API to collect and manage candidate resumes.", version="1.0.0")
+app = FastAPI(title="Mini Resume Collector", description="A simple API to collect and manage candidate resumes.", version="1.0.0" 
+  docs_url="/",          # Swagger UI becomes homepage
+    redoc_url=None         # Optional: disable /redoc)
 
 # In-memory database
 # Using a list of dictionaries for simplicity
