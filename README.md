@@ -1,5 +1,8 @@
 # Mini Resume Collector Application
 
+Deployed Link :  https://tensorlogic.onrender.com/docs
+
+
 A simple REST API built with FastAPI to collect and manage candidate resumes.
 
 ## Features
